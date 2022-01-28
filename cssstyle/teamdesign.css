@@ -1,0 +1,137 @@
+body{
+	background-color: darkslategrey;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+
+}
+#main-header{
+	background-color: #22333b;
+	color: floralwhite;
+	border: 10px #f7b801;
+	border-style: double;
+	border-radius: 20px;
+	height: 85px;
+}
+#navbar{
+	background-color: #fe6d73;
+	color: white;
+}
+#navbar ul{
+	padding: 5px;
+	list-style: none;
+
+}
+#navbar li{
+	display: inline;
+
+}
+#navbar a{
+	color: black;
+	font-size: 18px;
+	padding-right: 16px;
+	text-decoration: none;
+
+}
+#showcase{
+	background-image: url(../images/back.jpg );
+	background-position: cneter right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+#showcase h1{
+	color: white;
+	font-size: 50px;
+	padding-top: 10px;
+}
+#contact{
+	background-color: slategray;
+}
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+#contact{
+	background-color: #f2;
+	margin: 50px 70px;
+	padding: 10px 0px 10px 15px;
+	border: 10px lightgrey solid;
+	border-radius: 50px;
+	border border-style: double;
+}
+input[type="text"],
+input[type="contact"],
+input[type="e-mail"],
+input[type="college"],
+input[type="message"],
+textarea{
+	width: 50%;
+	padding: 13px;
+	border: 2px #ccc;
+	border-radius: 7px;
+}
+.main-heading{
+	text-align: center;
+	font-size: 20px;
+}
+input[type="submit"]{
+	background-color: #38b000;
+	border: 10px darkgrey;
+	border-style: groove;
+	
+	font-style: bold;
+}
+.test3{
+    display: flex;
+    height: 250px;
+}
+#feedback{
+    padding: 15px;
+    height: 260px;
+    width: 50%;
+    background-color: #00a5e0;
+    color: #ffe900;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+#feedback h1{
+    padding: 20px;
+}
+#about{
+    text-align: center;
+    padding: 15px;
+    height: 260px;
+    width: 50%;
+    background-color: #e63946;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about h1{
+    padding: 20px;
+}
+.submit{
+	text-align: center;
+}
+.submit:hover{
+	background-color: forestgreen;
+}
+#main p{
+	font-size: 20px;
+}
+a:hover{
+	color: #ffd60a;
+}
+#main{
+	color: #e9fff9;
+	font-size: 25px;
+}
